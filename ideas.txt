@@ -1,0 +1,22 @@
+AML Project:
+
+Data source shall be Quandl, in early stages we can explicitly download csv files (all you need is a free account), later we can start to use the API to pull data when we need it (larger numbers of data etc)
+
+To begin with the focus shall be a simple time series analysis, we can get into more complicated financial things later on but for now we just need to get started. The candidate stock to track is BP. Though any should suffice. So to begin with pull BP stocks January 2010 onowards and also the index it features in: FTSE100. Look at market close prices.
+
+
+First task is to see how different methods perform on data prediction:
+1- Neural Network, we can just repeat what we did with MN but in Python
+2- Linear Predictor, again as in last semester. Expand to non linear predictor
+3- Linear Predictor with a kernel function?
+4- SVM classifier up/down classification?
+
+And anything else you might think of. This is basic and we may end up going in a different direction but we need to get started and force ourselves (mostly me) to start doing some more serious off tutorial python.
+
+
+%%%%%%%
+Ideas for later:
+VIX investor sentiment
+Contrarion Investing
+Sniping
+Stealth Gaming
